@@ -1,0 +1,18 @@
+Find the Maximum number in array
+Find the smallest number in array
+Find the second last number in array
+Find the 2 number in array
+find prime number
+Sort the array
+skip the 3rd element
+Find the length of words
+Multiply with any number
+add number in array value
+reverse the array
+remove duplicate
+reverse the string
+convert first letter to upper case
+Multiply array with same value
+find palandrome
+sort the string
+find a number of multiple of 3 ,show the value of multiple of 3 is fizz else number
