@@ -1,3 +1,3 @@
-const array = [1,2,3,4,5];
-console.log(array.length-1);
+const array = [1,2,3,4,55];
+console.log(array[array.length-3]);
 
