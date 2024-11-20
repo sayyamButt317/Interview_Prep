@@ -5,4 +5,5 @@ function findprime(n){
 }
 return true; // otherwise it's a prime number so return true (it also must be greater than 1, reason for the n > 1 instead of true)
 }
-console.log(findprime(6))
+console.log(findprime(2))
+
