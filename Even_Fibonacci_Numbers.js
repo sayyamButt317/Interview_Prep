@@ -2,16 +2,29 @@
 // By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
 let numOne = 1;
 let numTwo = 2;
-let sum = 2;
-let temp=0
-while (temp < 4000000) {
-     temp = numOne + numTwo;
+let sum = [];
+let temp = 0;
 
+while (temp < 100) {
+  temp = numOne + numTwo;
   numOne = numTwo;
   numTwo = temp;
-  console.log(temp);
-  if (temp % 2 === 0) {
-    sum += temp;
+  console.log(numTwo)
+  if( numTwo % 3 === 0 || numTwo % 5===0 ){
+      sum += numTwo;
+     return sum
   }
+  console.log(sum)
 }
-console.log(sum);
+
+// while (temp < 4000000) {
+//      temp = numOne + numTwo;
+
+//   numOne = numTwo;
+//   numTwo = temp;
+//   console.log(temp);
+//   if (temp % 2 === 0) {
+//     sum += temp;
+//   }
+// }
+// console.log(sum);

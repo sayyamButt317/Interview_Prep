@@ -1,5 +1,5 @@
 
-//Reverse teh String 
+// //Reverse teh String 
 const string =(" hello buddy ,how's you doing");
 
 function reverseString(str){
@@ -13,4 +13,5 @@ function reverseString(str){
     }
 const result =reverseString(string)
 console.log(result)
+
 
